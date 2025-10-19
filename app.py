@@ -38,7 +38,7 @@ try:
     available_models = [m.name for m in models_list]  # Extrair os nomes dos modelos
     
     # Definir o modelo padrão
-    default_model = "models/gemini-2.0-pro-exp"
+    default_model = "models/gemini-2.5-pro"
     if default_model in available_models:
         default_index = available_models.index(default_model)
     else:
